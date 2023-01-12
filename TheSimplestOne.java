@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class LuckTest {
+public class TheSimplestOne {
     public static void main(String[] args) {
         int luckNum = 1;
         Random random = new Random();
