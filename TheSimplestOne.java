@@ -2,15 +2,15 @@ import java.util.Random;
 
 public class TheSimplestOne {
     public static void main(String[] args) {
-        int luckNum = 1;
+        double ran = 1.0;
         Random random = new Random();
         while (true){
             if(random.nextDouble()<0.5){
-                luckNum++;
+                ran++;
             }else {
                 break;
             }
         }
-        System.out.println(luckNum);
+        System.out.println(ran);
     }
 }
